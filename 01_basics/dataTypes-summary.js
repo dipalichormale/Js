@@ -33,4 +33,31 @@ const myFunction = function(){            // datatype = functionobject
     console.log("hello world");
 }
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
+
+
+
+// ****************************************************************
+
+// memory type:  stack(primitive), heap(non primitive)
+
+let myNameIs = "dipali"  
+
+let anotherNameIs = myNameIs
+anotherNameIs = "Deepachormale"
+
+console.log(myNameIs);
+console.log(anotherNameIs);
+
+let userOne = {
+    email: "dipa@gmail,com",
+    age:22
+}
+
+let userTwo = userOne
+
+userTwo.email = "yz@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
